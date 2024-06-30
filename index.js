@@ -7,8 +7,8 @@ const coordinates = new Coordinates(45.4903, -122.8427);
 // Choose the calculation method (University of Islamic Sciences, Karachi)
 const params = CalculationMethod.NorthAmerica();
 
-// Set the date to June 19, 2024
-const date = new Date('2024-06-19');
+// Set the date to today, here is an example
+const date = new Date('2024-06-30');
 
 // Calculate prayer times based on coordinates, date, and calculation method
 const prayerTimes = new PrayerTimes(coordinates, date, params);
